@@ -1,0 +1,71 @@
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.snake {
+    width: 480px;
+    height: 480px;
+    margin: 50px auto;
+}
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+    outline: 1px solid black;
+}
+.excel {
+    width: 32px;
+    height: 32px;
+    border: 1px dotted #f3f3f3;
+    font-size: 24px;
+    text-align: center;
+}
+.excel img {
+    background-size: contain;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+.snake-head {
+/*    background: url('111.png');*/
+    background-color: green;
+}
+.snake-body{
+    background-color: red;
+/*    background: url('https://cdn1.iconfinder.com/data/icons/life-of-amazon-outline/340/snake_anaconda_animal_wildlife_boa_amazon_jungle-32.png');*/
+}
+.text {
+    font-size: 30px;
+    color: #088354;
+    margin-top: 20px;
+}
+.score {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
